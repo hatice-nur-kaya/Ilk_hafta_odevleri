@@ -11,9 +11,6 @@ public class Main {
 	        month = inp.nextInt();
 	        System.out.println("Ayýn Kaçýnda Doðdunuz ");
 	        day = inp.nextInt();
-
-
-
 	        if (month==1) {
 	            if (day<22) {
 	                System.out.println("Oðlak Burcu");
