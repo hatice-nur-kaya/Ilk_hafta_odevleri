@@ -6,14 +6,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner info =new Scanner(System.in);
-		System.out.print("Yarýçap Giriniz : ");
 		double pi=3.34;
-		int r;
+		double r, a;
+		System.out.println("Yarýçap Giriniz : ");
 		r=info.nextInt();
-		double alan = (r*r*pi);
-		double cevre =(2*pi*r);
+		System.out.print("Merkez Açýsýsýnýn Ölçüsünü Giriniz : ");
+		a =info.nextDouble();
+		double alan = (pi * (r*r)* a) / 360;
 		System.out.println("Dairenin Alaný : "+ alan);
-		System.out.print("Dairenin Çevresi : "+ cevre);
+	
 
 	}
 
