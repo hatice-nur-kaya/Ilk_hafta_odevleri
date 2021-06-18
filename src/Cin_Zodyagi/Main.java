@@ -6,46 +6,46 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		 int yil;
+	     	int yil;
 	        Scanner info = new Scanner(System.in);
 	        System.out.println("Hangi Yýlda Doðdunuz: ");
 	        yil = info.nextInt();
-	        double sonuc= yil/12;
+	        int sonuc= (yil%12);
 	        if(sonuc==0) {
-		        System.out.println(sonuc+"Maymun");
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Maymun");
 	        }
-	        if(sonuc==1) {
-		        System.out.println(sonuc+"Horoz");
+	        else if(sonuc==1) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Horoz");
 	        }
-	        if(sonuc==2) {
-		        System.out.println(sonuc+"Köpek");
+	        else if(sonuc==2) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Köpek");
 	        }
-	        if(sonuc==3) {
-		        System.out.println(sonuc+"Domuz");
+	        else if(sonuc==3) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Domuz");
 	        }
-	        if(sonuc==4) {
-		        System.out.println(sonuc+"Fare");
+	        else if(sonuc==4) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Fare");
 	        }
-	        if(sonuc==5) {
-		        System.out.println(sonuc+"Öküz");
+	        else if(sonuc==5) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Öküz");
 	        }
-	        if(sonuc==6) {
-		        System.out.println(sonuc+"Kaplan");
+	        else if(sonuc==6) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Kaplan");
 	        }
-	        if(sonuc==7) {
-		        System.out.println(sonuc+"Tavþan");
+	        else if(sonuc==7) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Tavþan");
 	        }
-	        if(sonuc==8) {
-		        System.out.println(sonuc+"Ejderha");
+	        else if(sonuc==8) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Ejderha");
 	        }
-	        if(sonuc==9) {
-		        System.out.println(sonuc+"Yýlan");
+	        else if(sonuc==9) {
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz Yýlan");
 	        }
 	        if(sonuc==10) {
-		        System.out.println(sonuc+"At");
+		        System.out.println(sonuc+"Çin Zodyaðý Burcunuz At");
 	        }
 	        if(sonuc==11) {
-		        System.out.println(sonuc+"Koyun");
+		        System.out.println("Çin Zodyaðý Burcunuz Koyun");
 	        }
         
 
