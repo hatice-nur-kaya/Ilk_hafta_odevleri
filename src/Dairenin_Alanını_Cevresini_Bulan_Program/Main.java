@@ -1,4 +1,4 @@
-package Dairenin_Alanýný_Çevresini_Bulan_Program;
+package Dairenin_Alanýný_Cevresini_Bulan_Program;
 
 import java.util.Scanner;
 
