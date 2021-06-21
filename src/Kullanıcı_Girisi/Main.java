@@ -13,16 +13,16 @@ public class Main {
 		System.out.println("Kullanýcý adýnýzý giriniz");
 		userName =inp.nextLine();
 		
-		System.out.println("þifrenizi giriniz");
+		System.out.println("Þifrenizi giriniz");
 		password =inp.nextLine();
 		
-		if(userName.equals("esra") && password.equals(passwordLogin)) {
-			System.out.println("baþarýlý");
+		if(userName.equals("HaticeNur") && password.equals(passwordLogin)) {
+			System.out.println("Baþarýlý");
 			
 		}else {
 		
 		
-			System.out.println("kullanýcý adýný yanlýþ girdiniz.sýfýrlama ister misin?");
+			System.out.println("Kullanýcý adýnýz yada þifreyi yanlýþ girdiniz.Sýfýrlamak ister misin?");
 			System.out.println("1 evet , 2 hayýr");
 			int select =inp.nextInt();
 			
@@ -41,17 +41,9 @@ public class Main {
 				}
 				 break;
 			case 2:
-				System.out.println("þifre sýfýrlama iptqal edildi.");
+				System.out.println("Þifre sýfýrlama iptal edildi.");
 			
 			break;
-			default:
-				System.out.println("belirtilen deðer seçiniz");
-		
-			}
-			
-			
-		}
-		
 	}
 
-}
+		}}}
