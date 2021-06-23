@@ -11,9 +11,9 @@ public class Main {
         sayi = oku.nextInt();
         int sonuc = asallik(sayi, sayi / 2);
         if (sonuc == 0)
-            System.out.println(sayi+"Asal sayi degildir\n");
+            System.out.println(sayi+ " Asal sayi degildir\n");
         else
-            System.out.println(sayi+" Asal sayidir\n");
+            System.out.println(sayi+ "  Asal sayidir\n");
         }
 
         
