@@ -1,25 +1,24 @@
-package Manav_Kasa_Programı;
+package Manav_Kasa_ProgramÄ±;
 
 import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-
-		Scanner info =new Scanner(System.in);
-		double armut,elma,domates,muz,patlıcan;
-		System.out.print("Armut Miktarını Giriniz :");
-        armut= info.nextDouble();
-        System.out.print("Elma Miktarını Giriniz :");
-        elma= info.nextDouble();
-        System.out.print("Domates Miktarını Giriniz :");
-        domates= info.nextDouble();
-        System.out.print("Muz Miktarını Giriniz :");
-        muz= info.nextDouble();
-        System.out.print("Patlıcan Miktarını Giriniz :");
-        patlıcan= info.nextDouble();
-        double tutar=(armut*2.14+elma*3.67+domates*1.11+muz*0.95+patlıcan*5.00);
-        System.out.print("Toplam Tutar : "+tutar+ "TL");
+	public static void main(String[] args) { 
+	Scanner info =new Scanner(System.in);  // KullanÄ±cÄ±dan bilgi alÄ±r
+	double pear,apple,tomatoes,banana,aubergine;
+        System.out.print("Armut MiktarÄ±nÄ± Giriniz :");
+        pear= info.nextDouble();
+        System.out.print("Elma MiktarÄ±nÄ± Giriniz :");
+        apple= info.nextDouble();
+        System.out.print("Domates MiktarÄ±nÄ± Giriniz :");
+        tomatoes= info.nextDouble();
+        System.out.print("Muz MiktarÄ±nÄ± Giriniz :");
+        banana= info.nextDouble();
+        System.out.print("PatlÄ±can MiktarÄ±nÄ± Giriniz :");
+        aubergine= info.nextDouble();
+        double tutar=(pear*2.14+apple*3.67+domates*1.11+banana*0.95+aubergine*5.00); //Kasadaki iÅŸlemler
+        System.out.print("Toplam Tutar : "+tutar+ "TL"); 
 	}
 
 }
