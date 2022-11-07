@@ -8,10 +8,10 @@ public class Main {
 
         Scanner klavye=new Scanner(System.in);
         
-        System.out.println("Bir Say� Giriniz");
+        System.out.println("Bir Sayý Giriniz");
         int n=klavye.nextInt();
         
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){  //iç içe for kullanarak şekil oluşturmak amaçlanmıştır
             for(int j=0;j<=i;j++){
                 System.out.print(" ");
             }   
