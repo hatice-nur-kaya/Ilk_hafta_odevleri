@@ -11,17 +11,17 @@ int toplam = 0;
         
         System.out.print("Bir sayi giriniz: ");
         int sayi = info.nextInt();
-        for(int i = 1; i < sayi; i++)
+        for(int i = 1; i < sayi; i++)  //Mukemmel sayının kuralına göre döngü oluşturularak kontrol sağlanmıştır
         {
             if(sayi % i == 0) {
                 toplam += i;
             }
         }
         if(sayi == toplam) {
-            System.out.println(sayi + " M�kemmel bir sayidir");
+            System.out.println(sayi + " Mükemmel bir sayidir");
         }
         else {
-            System.out.println(sayi + " M�kemmel bir sayi degildir.");
+            System.out.println(sayi + " Mükemmel bir sayi degildir.");
         }
 	}
 
