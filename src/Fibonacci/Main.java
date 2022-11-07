@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		 Scanner reader = new Scanner(System.in);
 	        int n1=0,n2=1,n3,i,n;
-	        System.out.print("N Sayýsýný Girin:");
+	        System.out.print("N Sayisini Girin:");
 	        n = reader.nextInt();
 	        System.out.print(n1+" "+n2);
 	  
