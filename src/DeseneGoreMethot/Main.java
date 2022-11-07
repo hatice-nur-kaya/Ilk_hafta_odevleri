@@ -7,20 +7,20 @@ public class Main {
 	public static void main(String[] args) {
 		 Scanner info = new Scanner(System.in);
 	        System.out.print("Sayı Giriniz: ");
-	        int sayi = info.nextInt();
-	        int tmp = sayi;
-	        metotDeseni(sayi,tmp,false);
+	        int number = info.nextInt();
+	        int tmp = number;
+	        metotDeseni(number,tmp,false);
 
 	}
 	
-	   public static void metotDeseni(int sayi, int tmp, boolean status) {
+	   public static void metotDeseni(int number, int tmp, boolean status) {
 
-	        if (sayi <= tmp) {
-	            System.out.print(sayi +" ");
-	            if (sayi > 0 && !status) {
-	                metotDeseni(sayi-5,tmp,false);
+	        if (number <= tmp) {
+	            System.out.print(number +" ");
+	            if (number > 0 && !status) {
+	                metotDeseni(number-5,tmp,false);
 	            }else{
-	                metotDeseni(sayi+5,tmp,true);
+	                metotDeseni(number+5,tmp,true);
 	            }
 	        }
 	    }
