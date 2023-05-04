@@ -1,4 +1,4 @@
-package Manav_Kasa_Programı;
+package Manav_Kasa_Programi;
 
 import java.util.Scanner;
 
